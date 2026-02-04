@@ -1,0 +1,29 @@
+Luraph Script Analysis Report
+=============================
+
+File: scripts.txt
+Size: 78736 bytes
+Obfuscator: Luraph v14.6
+
+Complexity Metrics:
+  loops: 14
+  functions: 17
+  tables: 15
+  locals: 48
+  conditionals: 28
+
+Detected Patterns:
+  1. IIFE wrapper (return(function()...end)())
+  2. Zero-indexed arrays (VM data structures)
+  3. Data unpacking operations
+  4. Single-letter variables: 20 unique
+
+Deobfuscation Status: PARTIAL
+Reason: Luraph v14.6 uses VM-based execution that requires
+        advanced reverse engineering to fully deobfuscate.
+
+Recommendations:
+1. Contact the script author for original source
+2. Use dynamic analysis for behavior understanding
+3. Consider professional reverse engineering services
+4. Review DEOBFUSCATION_GUIDE.md for detailed methods
